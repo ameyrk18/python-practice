@@ -74,3 +74,8 @@ print("Bitwise XOR num1 | num2 is ", num1 ^ num2)
 a = 60            # 60 = 0011 1100
 print("Binary right shift >> is", a >> 2) #0000 1111
 print("Binary left shift << is", a << 2)  #1111 0000
+
+########## Identity operators ##########
+
+
+########## Membership operators operators ##########

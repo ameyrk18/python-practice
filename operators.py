@@ -61,3 +61,16 @@ y=False
 print("x and y", x and y)
 print("x or y", x or y)
 print("not of x", not x)
+
+########## Bitwise operators ##########
+print("########## Bitwise operators ##########")
+num1=6  # 110
+num2=2  # 010
+
+print("Bitwise AND : num1 & num2 is ", num1 & num2)
+print("Bitwise OR num1 | num2 is", num1 | num2)
+print("Bitwise XOR num1 | num2 is ", num1 ^ num2)
+
+a = 60            # 60 = 0011 1100
+print("Binary right shift >> is", a >> 2) #0000 1111
+print("Binary left shift << is", a << 2)  #1111 0000

@@ -1,3 +1,5 @@
+## Note please use multiline comment if you want to execute specific section of the excercise
+
 ########## Arithmetic operators ##########
 
 print("########## Arithmetic operators ##########")
@@ -42,3 +44,20 @@ print(x)
 ########## Comparison operators ##########
 
 print("########## Comparison operators ##########")
+num1=2
+num2=3
+print("is num1 > num2", num1>num2)
+print ("is num1 < num2", num1<num2)
+print("is num1=num2", num1==num2)
+print("is num1 != num2", num1!=num2)
+
+########## Logical operators ##########
+
+print("########## Logical operators ##########")
+# AND OR and NOT conditions
+x=True
+y=False
+
+print("x and y", x and y)
+print("x or y", x or y)
+print("not of x", not x)

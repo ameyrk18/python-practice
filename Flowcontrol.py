@@ -1,4 +1,4 @@
-#if
+#if statement
 
 #int marks =input('Please enter your marks and we will tell your grades...')
 '''xString = input('Please enter your marks and we will tell your grades...')
@@ -11,7 +11,7 @@ elif (marks> 40) & (marks < 60):
 else:
     print("You fail :(")
 
-#While
+#While statement
 
 num=int(input('Please enter your value...'))
 if (num<=0):
@@ -24,7 +24,7 @@ else:
         print(num)
 
 print(sum)
-'''
+
 
 #for statement
 for quant in range(99,0,-1):
@@ -37,3 +37,20 @@ for quant in range(99,0,-1):
     else:
         print('No more bottles of beer on the wall, no more bottles of beer.')
         print('Go to the store and buy some more, 99 bottles of beer on the wall.')
+
+
+# break statement
+count=0
+while True:
+    count+=1
+    print(count)
+    if(count>15):
+        break
+'''
+
+# Continue statement
+
+for x in range (20):
+    if (x%2==0):
+        continue
+    print(x)
